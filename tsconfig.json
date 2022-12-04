@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": "/",
+        "outDir": "./output/",
+
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictBindCallApply": true,
+        "alwaysStrict": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "target": "es5",
+        "lib": [ "dom", "es5", "es6" ],
+        "paths": {
+            "*": [
+                "*"
+            ]
+        }
+    }
+}
