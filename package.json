@@ -1,0 +1,19 @@
+{
+    "name": "simple-game-engine",
+    "description": "Implementation of a rendering system from a simple game engine, with built-in material batching support on top of WebGL.",
+    "version": "1.0.0",
+    "homepage": "https://github.com/dmn-chumak/simple-game-engine",
+    "main": "./output/engine.js",
+    "author": "dmn-chumak",
+    "license": "MIT",
+    "scripts": {
+        "compile": "webpack --config compile.config.js"
+    },
+    "devDependencies": {
+        "ts-loader": "^9.4.2",
+        "typescript": "^5.0.4",
+        "webpack": "^5.82.0",
+        "webpack-cli": "^5.1.0",
+        "webpack-glsl-minify": "^1.5.0"
+    }
+}
